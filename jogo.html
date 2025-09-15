@@ -23,6 +23,7 @@ body { margin:0; overflow:hidden; background:#222; font-family:Arial,sans-serif;
 </div>
 <button id="hornButton">🎃 Buzinar</button>
 <audio id="hornSound" src="buzina.mp3" preload="auto"></audio>
+<audio id="motorSound" src="colisao.mp3" preload="auto" loop></audio>
 
 <script src="https://cdn.jsdelivr.net/npm/three@0.153.0/build/three.min.js"></script>
 <script>
@@ -198,3 +199,4 @@ window.addEventListener('keydown',e=>{if(e.key.toLowerCase()==='b') tocarBuzina(
 </script>
 </body>
 </html>
+
